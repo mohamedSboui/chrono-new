@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch and useful utilities</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+        
+</head>
+
+<body>
+    <audio controls autoplay>
+        
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+
+    <h1 id="title">Online StopWatch and other useful utilities</h1>
+
+    
+          
+      
+    <div class=" numbers">
+        <span id="hr">00</span>
+        <span >:</span>
+        <span id="min">00</span>
+        <span >:</span>
+        <span id="sec">00</span>
+        <span >:</span>
+        <span id="ms">00</span>
+    </div>
+
+    <br>
+    <div style="text-align:center ;">
+        <button class="buttons" onclick="start()" type="button" id="startBtn" >Start</button>
+        <button class="buttons" onclick="stop()" type="button" id="stopBtn">Stop</button>
+        <button class="buttons" onclick="reset()" type="button" id="resetBtn">reset</button>
+    </div>
+    <br><br><br><br><br><br><br>
+
+    <a style="color: blueviolet; font-size:36px" href="rng.html">Random Number Generator</a> <br><br><br>
+    <a style="color: blueviolet; font-size: 36px;" href="timer.html">Timer</a>
+    <br><br><br>
+    <img src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg" onclick="darkTheme()" id="darkTheme"></img> <br> <br>
+
+
+
+
+    <script src="jsfile.js"></script>
+</body>
+</html>
